@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icons/icon.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foodio</title>
+    <style>
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+      }
+      .gallery-item {
+        margin: 10px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        max-width: 300px;
+      }
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+      }
+      .nav {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="menu">
+      <div class="nav">
+        <div class="logo">
+          <h1>food<b>io</b></h1>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <!--link to home page-->
+          <li><a href="menu.html">Menu</a></li>
+          <!--link to menu page-->
+          <li><a href="service.html">Service</a></li>
+          <!--link to service page-->
+          <li><a href="about.html">About Us</a></li>
+          <!-- Link to About Page -->
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="page-title">Our Gallery</div>
+    <section class="gallery">
+      <section class="gallery">
+        <div class="gallery-item">
+          <img src="images/pic1.jpg" alt="Customer enjoying a meal" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/pic2.jpg" alt="Customer with a dessert" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/food1.jpg" alt="Delicious food presentation" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/food2.jpg" alt="Another food dish" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/pic3.jpg" alt="Group of customers" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/allfood.jpg" alt="Food item" />
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
